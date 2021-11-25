@@ -13,7 +13,7 @@ class App extends React.Component {
        <Nav/>
        <Routes>
          <Route path="/" element={<Jokes/>}/>
-         <Route path="/favorite" element={<Favorites/>}/>
+         <Route path="/favorites" element={<Favorites/>}/>
        </Routes>
 
       </Router>
